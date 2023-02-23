@@ -24,6 +24,12 @@ URUCHOMIENIE (należy podstawić nazwę swojego pliku z rysunkiem w miejsce exam
 
 JAK ROZUMIEĆ WYNIKI:
 
+    Jeśli skrypt kończy się niepoprawnie (czyli nie dochodzi do końca) to jest gdzieś luźna krawędź, warto wtedy podpiąć krawędzie ponownie.
+    
+    Jeśli się zatnie ( nic się nie dzieje, to znaczy, że nazwa którejś produkcji generycznej mogła zostać źle napisana i regex popadł w catastrophic    
+    backtracing, należy wtedy sprawdzić formaty
+
+
     Wyniki różnych walidacji są zapisywane w formacie:
         WARNING/ERROR
             Element przy którym znaleziono problem
